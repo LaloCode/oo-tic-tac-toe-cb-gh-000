@@ -71,4 +71,8 @@ class TicTacToe
   end
   false
   end
+
+  def full?
+  !@board.include?(" " || "" || nil)
+  end
 end
